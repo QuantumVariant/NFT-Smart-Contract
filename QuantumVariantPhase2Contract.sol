@@ -1354,7 +1354,7 @@ pragma solidity ^0.8.2;
 
 
 
-    contract #QUANTUMVARIANTPHASE2# is ERC721, ERC721Enumerable, ERC721URIStorage, ERC721Burnable, Ownable {
+    contract QUANTUMVARIANTPHASE2 is ERC721, ERC721Enumerable, ERC721URIStorage, ERC721Burnable, Ownable {
         
         using Strings for uint256;
         
@@ -1365,7 +1365,7 @@ pragma solidity ^0.8.2;
         string private _baseURIextended;
 
 
-        constructor() ERC721("#QUANTUM VARIANT PHASE 2#", "#QVP2#") {}
+        constructor() ERC721("QUANTUM VARIANT PHASE 2", "QVP2") {}
 
         function setBaseURI(string memory baseURI_) external onlyOwner() {
             _baseURIextended = baseURI_;
